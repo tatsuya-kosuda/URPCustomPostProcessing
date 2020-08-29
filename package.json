@@ -1,0 +1,11 @@
+{
+  "author": "Tatsuya Kosuda",
+  "name": "jp.tatsuya-kosuda.urp-cpp",
+  "displayName": "CustomPostProcessing",
+  "version": "1.0.0-preview.1",
+  "unity": "2020.1",
+  "description": "custom post processing for URP",
+  "dependencies": {
+  	"com.unity.render-pipelines.universal": "8.2.0"
+  }
+}
