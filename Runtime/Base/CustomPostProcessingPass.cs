@@ -36,7 +36,8 @@ namespace cpp
             switch (ev)
             {
                 case RenderPassEvent.AfterRenderingPostProcessing:
-                    SourceId = Shader.PropertyToID("_AfterPostProcessTexture");
+                    //SourceId = Shader.PropertyToID("_AfterPostProcessTexture");
+                    SourceId = Shader.PropertyToID("_CameraColorAttachmentA");
                     break;
                 case RenderPassEvent.BeforeRenderingPostProcessing:
                 default:
